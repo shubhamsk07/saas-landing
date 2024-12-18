@@ -1,6 +1,6 @@
 import { twMerge } from "tailwind-merge";
 
-export default function (props:{
+export default function FeatureCard(props:{
     title:string,
     description:string,
     className:string,
