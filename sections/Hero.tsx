@@ -92,7 +92,7 @@ export default function Hero() {
                 </p>
                 <form className="flex border justify-between border-white/15 rounded-full p-2 max-w-lg mt-8 mx-auto ">
                     <input type="email" placeholder="Enter you email" className="bg-transparent px-4 md:flex-1" />
-                    <Button size="sm" type="submit" variant='primary'>Sign Up</Button>
+                    <Button size="sm" type="submit" className="flex-inline" variant='primary'>Sign Up</Button>
                 </form>
             </div>
 
