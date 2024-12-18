@@ -90,9 +90,9 @@ export default function Hero() {
                     Design tools shouldn&apos;t slow you
                     down. Layers combines powerful features with an intuitive interface that keeps you in you creative flow.
                 </p>
-                <form className="flex border justify-between border-white/15 rounded-full p-2 max-w-lg mt-8 mx-auto ">
-                    <input type="email" placeholder="Enter you email" className="bg-transparent px-4 md:flex-1" />
-                    <Button size="sm" type="submit" variant='primary'>Sign Up</Button>
+                <form className="flex justify-end  border md:justify-between border-white/15 rounded-full p-2  max-w-lg  mt-8 md:mx-auto ">
+                    <input type="email" placeholder="Enter you email" className="bg-transparent  pl-4 w-full md:flex-1" />
+                    <Button size="sm" type="submit" className=" flex px-1 w-28 justify-center items-center" variant='primary'>Sign Up</Button>
                 </form>
             </div>
 
